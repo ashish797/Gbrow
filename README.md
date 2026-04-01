@@ -1,10 +1,11 @@
 # Gbrow
 
-A full-featured headless browser for [OpenClaw](https://github.com/openclaw/openclaw) agents. Built on Playwright and Bun.
+Not just a browser. A workstation for your AI agent.
 
-Instead of taking screenshots and sending them to expensive vision models, Gbrow reads pages through the browser's **accessibility tree**. It's fast, free, and way more reliable.
+A full-featured headless browser for [OpenClaw](https://github.com/openclaw/openclaw) agents. Built on Playwright and Bun. Instead of taking screenshots and sending them to expensive vision models, Gbrow reads pages through the browser's **accessibility tree** — fast, free, and way more reliable.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![ClawHub](https://img.shields.io/badge/ClawHub-gbrow-green.svg)](https://clawhub.com/skills/gbrow)
 [![Bun](https://img.shields.io/badge/Bun-1.3+-fbf0df)](https://bun.sh)
 [![Playwright](https://img.shields.io/badge/Playwright-latest-2EAD33)](https://playwright.dev)
 [![OpenClaw](https://img.shields.io/badge/OpenClaw-Skill-purple)](https://github.com/openclaw/openclaw)
@@ -28,13 +29,21 @@ Each element gets a ref (`@e1`, `@e2`, etc.) that you can click, fill, or inspec
 
 ## Install
 
+**Via ClawHub (recommended):**
+
+```bash
+clawhub install gbrow
+```
+
+**Via Git:**
+
 ```bash
 cd ~/.openclaw/workspace/skills
 git clone https://github.com/ashish797/Gbrow.git
 cd Gbrow && bash setup.sh
 ```
 
-The setup script installs Bun (if needed), pulls dependencies, and installs Chromium. Takes about 30 seconds.
+Either way, the setup installs Bun (if needed), pulls dependencies, and installs Chromium. About 30 seconds.
 
 ## Usage
 
