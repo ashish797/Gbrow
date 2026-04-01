@@ -1,0 +1,6 @@
+node_modules/
+.gstack/
+*.log
+.DS_Store
+dist/
+*.bun-build
